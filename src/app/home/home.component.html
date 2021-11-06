@@ -1,0 +1,20 @@
+<div class="conteneur1">
+    <h1>HOME</h1>
+    
+    <textarea type="text" [(ngModel)]="tweetContent" placeholder="What is happening today?"></textarea><br>
+    <input type="text" [(ngModel)]="tweetHashtag" placeholder="#"><br>
+    <button type="submit" (click)="onAdd()">OK</button>
+    <p class="error">{{this.error}}</p>
+    <div class="conteneur2">
+        <!-- <app-tweet-feed></app-tweet-feed>  -->
+        <!-- Pour que l'enfant et le parent puissent communiquer, il faut créer un lien. Sinon, il faut mettre mon composant tweet-feed directement dans mon composant HOME pour que la fonction (click) soit prise en considération -->
+        <div class="conteneur4" *ngFor="let i of tweetList; index as Id">
+            <div class="conteneur5">
+                <p>{{i.content}}</p>
+                <p>{{i.hashtag}}</p>
+            </div>
+            
+                <a [routerLink]="['/details', Id]">Read more</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+
+h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-left: 50px;
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+textarea{
+    margin-left: 50px;
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+button{
+    margin-left: 50px;
+    width: 205px;
+    border: none;
+}
+
+.error{
+    margin-left: 50px;
+    font-weight: bold;
+    color: red;
+}
+
+.conteneur4{
+    height: 100px;
+    width: 600px;
+    background-color: whitesmoke;
+    margin: 25px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.conteneur5{
+    display: flex;
+    justify-content: space-between;
+}

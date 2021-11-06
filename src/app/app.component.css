@@ -1,0 +1,28 @@
+.conteneur{
+    display: flex;
+    width: 100%;
+}
+
+nav{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    max-width: 150px;
+
+}
+
+nav a{
+   padding: 25px;
+
+}
+
+nav img{
+    max-width: 100%;
+}
+
+.import{
+    height: 100vh;
+    background-color: rgb(15, 153, 196);
+    width: 100%;
+}

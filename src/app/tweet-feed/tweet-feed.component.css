@@ -1,0 +1,17 @@
+.conteneur{
+    height: 100px;
+    width: 600px;
+    background-color: whitesmoke;
+    margin: 25px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.conteneur1{
+    display: flex;
+    justify-content: space-between;
+}

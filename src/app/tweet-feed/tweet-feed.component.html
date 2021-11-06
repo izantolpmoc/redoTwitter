@@ -1,0 +1,8 @@
+<div class="conteneur" *ngFor="let i of tweetList; index as Id">
+    <div class="conteneur1">
+        <p>{{i.content}}</p>
+        <p>{{i.hashtag}}</p>
+    </div>
+    
+        <a [routerLink]="['/details', Id]">Read more</a>
+</div>
